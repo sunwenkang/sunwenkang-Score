@@ -1,0 +1,18 @@
+/* 
+  readme.strings
+  Score
+
+  Created by 949699582 on 2020/2/18.
+  Copyright © 2020 MAC. All rights reserved.
+ 遇到的bug:
+ 1.Could not load the "xuanze-y" image referenced from a nib in the bundle with identifier "com.zhq.ocdeep.Score"
+
+ 原因:xcode8加载Png图片的时候，要求Png图片是PNG-24格式
+ 解决:用mac自带的图片浏览器导出图片文件
+ 
+ 2.Can't find keyplane that supports type 4 for keyboard iPhone-PortraitChoco-NumberPad; using 25686_PortraitChoco_iPhone-Simple-Pad_Default
+ 错误:键盘不能弹出
+ 解决:模拟器 Hardware->Keyboard->ConnectHardware Keyboard取消勾选
+*/
+
+
